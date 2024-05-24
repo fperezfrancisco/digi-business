@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* variables for colors*/
+  --orange: #f78430;
+  --black: #313131;
+  --white: #ffff;
+  --white-Stroke: #f0f0f0;
+  --light-gray-logos: #b6b6b6;
+  --gray: #828282;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  /*font family is inter*/
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--black);
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.decorationSplash {
+  width: 330px;
+  height: 310px;
+  border-radius: 50%;
+  background-color: var(--orange);
+  /*background-image: url("assets/decorators/decorator.png");*/
+  filter: blur(200px);
+  position: absolute;
+  left: -167px;
+  top: -153px;
+  z-index: -1;
+}
+
+/** -- DO NOT CHANGE STYLES ABOVE THIS LINE  -- **/
+
+/* HEADER STYLING */
+
+.mainHeader {
+  width: 100%;
+  padding: 24px;
+  position: relative;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.mobileNav {
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobileLogo {
+  font-size: 1.25rem;
+}
+
+.mobileBurgerMenu {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* HEADER STYLING */
+
+/* MAIN-PAGE MOBILE STYLING */
+.mainContainer {
+  width: 100%;
+  align-items: center;
+}
+
+.pageSection {
+  width: 100%;
+}
+
+.sectionPara {
+  font-size: 1rem;
+  color: var(--gray);
+}
+/* MAIN-PAGE MOBILE STYLING */
+
+/* HERO SECTION MOBILE STYLING */
+.heroSection {
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+  padding: 1.5rem;
+}
+
+.heroCopy {
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.mainTitle {
+  font-size: 3.25rem;
+  text-align: center;
+  letter-spacing: -2.88px;
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.heroSubheading {
+  text-align: center;
+  max-width: 320px;
+  line-height: 1.5;
+}
+
+.heroCopy .inputContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 320px;
+  position: relative;
+}
+
+.heroInput {
+  width: 100%;
+  height: 64px;
+  padding: 1rem;
+  border: 1px solid var(--white-Stroke);
+  background-color: var(--white);
+  border-radius: 40px;
+  box-shadow: 0px 30px 30px 0px rgba(99, 122, 166, 0.1);
+  text-transform: uppercase;
+  color: var(--gray);
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.inputContainer .searchBtn {
+  background-color: var(--orange);
+  color: var(--white);
+  width: 84px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  border-radius: 24px;
+  padding: 0.75rem;
+  box-shadow: none;
+  border: none;
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  background-color: #fad1b3;
+}
+
+/* HERO SECTION MOBILE STYLING */
+
+/* SERVICES SECTION MOBILE STYLING */
+/* SERVICES SECTION MOBILE STYLING */
+
+/* HOW IT WORKS SECTION MOBILE STYLING */
+/* HOW IT WORKS SECTION MOBILE STYLING */
+
+/* BUSINESS RIGHT SECTION MOBILE STYLING */
+/* BUSINESS RIGHT SECTION MOBILE STYLING */
+
+/* REVIEWS SECTION MOBILE STYLING */
+/* REVIEWS SECTION MOBILE STYLING */
+
+/* BLOGS SECTION MOBILE STYLING */
+/* BLOGS SECTION MOBILE STYLING */
+
+/* CTA SECTION MOBILE STYLING */
+/* CTA SECTION MOBILE STYLING */
+
+/* FOOTER SECTION MOBILE STYLING */
+/* FOOTER SECTION MOBILE STYLING */
+
+/** -- MOBILE STYLING ABOVE THIS LINE -- **/
+/** -- 785PX STYLING MINUS ABOVE THIS LINE -- **/
+
+/** -- DESKTOP STYLING BELOW THIS LINE -- **/
+/** -- 786PX PLUS BELOW THIS LINE -- **/
