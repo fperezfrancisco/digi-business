@@ -501,6 +501,88 @@ svg {
 /* CTA SECTION MOBILE STYLING */
 
 /* FOOTER SECTION MOBILE STYLING */
+
+.footerMain {
+  width: 100%;
+  padding: 2rem 0rem 0rem;
+  margin-top: 2rem;
+  row-gap: 2rem;
+}
+
+.footerHeading {
+  width: 100%;
+  row-gap: 1.5rem;
+  padding: 0rem 1rem;
+}
+
+.footerTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footerPara {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.socialsContainer {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.socialBox {
+  width: 60px;
+  height: 60px;
+  background-color: var(--white);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--black);
+}
+
+.socialBox.facebookBox {
+  background-color: var(--black);
+}
+
+.footerLinksContainer {
+  row-gap: 1rem;
+  padding: 0rem 1rem;
+}
+
+.footerResources {
+  row-gap: 1rem;
+}
+
+.footerResources .noList {
+  list-style-type: none;
+}
+
+.footerList {
+  row-gap: 1rem;
+  color: var(--gray);
+}
+
+.footerList a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footerList a:hover,
+.footerList a:focus {
+  text-decoration: underline;
+}
+
+.copyRightContainer {
+  margin-top: 3rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--orange);
+  color: var(--white);
+  font-size: 0.75rem;
+}
+
 /* FOOTER SECTION MOBILE STYLING */
 
 /** -- MOBILE STYLING ABOVE THIS LINE -- **/
