@@ -454,6 +454,10 @@ svg {
 
 /* BUSINESS RIGHT SECTION MOBILE STYLING */
 
+.businessBright {
+  margin-bottom: 4rem;
+}
+
 .statsContainer {
   width: 100%;
   padding: 1.5rem;
@@ -487,6 +491,55 @@ svg {
 .statDescription {
   color: var(--gray);
   width: 64px;
+}
+
+.statsImageContainer {
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+}
+
+.boxReview {
+  width: 100%;
+  max-width: 300px;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  gap: 1rem;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0px 5px 20px var(--light-gray-logos);
+}
+
+.reviewArt {
+  height: 100%;
+  row-gap: 1rem;
+}
+
+.profileImg {
+  width: 54px;
+}
+
+.starsContainer img {
+  width: 16px;
+}
+
+.reviewCopy {
+  width: 100%;
+  font-size: 0.9rem;
+  row-gap: 1rem;
+  justify-content: space-between;
+}
+
+.authorTag {
+  color: var(--gray);
+}
+
+#linda2-box {
+  top: unset;
+  bottom: -5%;
 }
 
 /* BUSINESS RIGHT SECTION MOBILE STYLING */
@@ -527,6 +580,7 @@ svg {
 
 .socialsContainer {
   width: 100%;
+  max-width: 350px;
   justify-content: space-between;
 }
 
